@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"net/http"
 	"log"
+	"net/http"
 )
 
 func main() {
@@ -33,14 +33,14 @@ if (window.XMLHttpRequest)
 {
 ajaxObject = new XMLHttpRequest();
   
-ajaxObject.open(“GET”,”/time”,true);
+ajaxObject.open("GET","/time",true);
 ajaxObject.send();
   
 ajaxObject.onreadystatechange = function()
 {
 if (ajaxObject.readyState == 4 && ajaxObject.status == 200)
 {
-document.getElementById(“time″).innerHTML = "works"// ajaxObject.responseText;
+document.getElementById("time").innerHTML = "works"// ajaxObject.responseText;
   
 } } } } </script>
 
