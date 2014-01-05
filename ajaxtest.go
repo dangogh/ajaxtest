@@ -23,7 +23,11 @@ func HomePage(writer http.ResponseWriter, request *http.Request) {
 <html>
 <body>
 <script type="text/javascript">
- 
+function getUpdatedTime() {
+  var currentdate = new Date();
+  return currentdate.toString();
+}
+
 function getTime()
 {
 var ajaxObject ;
@@ -40,7 +44,7 @@ ajaxObject.onreadystatechange = function()
 {
 if (ajaxObject.readyState == 4 && ajaxObject.status == 200)
 {
-document.getElementById("time").innerHTML = "works"// ajaxObject.responseText;
+document.getElementById("time").innerHTML = getUpdatedTime(); //"works"// ajaxObject.responseText;
   
 } } } } </script>
 
