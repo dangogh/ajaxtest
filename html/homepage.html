@@ -10,14 +10,16 @@
 		function getTime() {
 			var ajaxObject;
 			ajaxObject = new XMLHttpRequest();
-			ajaxObject.open(“GET”, ”/time”, true);
-			ajaxObject.send();
 
 			ajaxObject.onreadystatechange = function() {
 				if (ajaxObject.readyState == 4 && ajaxObject.status == 200) {
 					document.getElementById(“time″).innerHTML = ajaxObject.responseText;
 				}
 			}
+			
+			ajaxObject.open(“GET”, ”/time”, true);
+			ajaxObject.send();
+
 		}
 
 		</script>

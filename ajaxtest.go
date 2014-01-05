@@ -37,7 +37,5 @@ func HomePage(writer http.ResponseWriter, request *http.Request) {
 		log.Print("EOF Reached")
 	}
 
-	log.Print(page)
-
 	fmt.Fprint(writer, page)
 }
