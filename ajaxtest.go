@@ -30,7 +30,7 @@ func HomePage(writer http.ResponseWriter, request *http.Request) {
 	page := ""
 	scanner := bufio.NewScanner(inFile)
 	for scanner.Scan() {
-		page += scanner.Text()
+		page += scanner.Text() + "\n"
 	}
 	err = scanner.Err()
 	if err == io.EOF {

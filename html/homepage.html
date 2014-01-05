@@ -5,29 +5,28 @@
 		<title>AJAX and Go</title>
 	</head>
 	<body>
-		<script type="text/javascript">
-
+		<script>
 		function getTime() {
 			var ajaxObject;
 			ajaxObject = new XMLHttpRequest();
 
-			ajaxObject.onreadystatechange = function() {
+			ajaxObject.onreadystatechange=function() {
 				if (ajaxObject.readyState == 4 && ajaxObject.status == 200) {
-					document.getElementById(“time″).innerHTML = ajaxObject.responseText;
+					document.getElementById("timeHolder").innerHTML = ajaxObject.responseText;
 				}
 			}
-			
-			ajaxObject.open(“GET”, ”/time”, true);
+
+			ajaxObject.open("GET", "time", true);
 			ajaxObject.send();
 
 		}
-
 		</script>
-		<div id="time">
-			What time is it?
+
+		<div id="prompt">
+			The time on the server is:
 		</div>
-		<div>
-			<button id="timeButton" onclick="getTime()">Click</button>
+		<div id="timeHolder">
+			<button type="button" onclick="getTime()">Click</button>
 		</div>
 	</body>
 </html>
