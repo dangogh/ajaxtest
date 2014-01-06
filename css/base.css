@@ -109,30 +109,6 @@ table th
 	padding-right: 1em;
 }
 
-section {
-	max-width: 40em;
-	min-width: 25em;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 1em;
-	margin-bottom: 1em;
-}
-
-article {
-	padding-bottom: 8em;
-}
-
-footer {
-	margin-top: 14em;
-	margin-left: auto ;
-	margin-right: auto ;
-	padding:  0px;
-	border: 0px solid gray;
-	text-align: center; 
-	position: relative; 
-	background-color: transparent;
-}
-
 h1, h2, h3, h4, h5, h6
 {
 	font-family: "Rockwell", "American Typewriter", "Courier New";
