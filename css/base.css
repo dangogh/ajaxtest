@@ -1,0 +1,140 @@
+body {
+	padding-bottom: 1px;
+	line-height: 1.75em;
+    color: #333333;
+	background-color: #FFFFFF;
+    word-wrap: break-word;
+	font-family: Verdana, Tahoma, Arial;
+	font-size: 14pt;
+	max-width: 40em;
+	min-width: 25em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img{
+	border: 0;
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+    
+}
+
+img.docenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+* code
+{
+	font-family: Monaco, fixed-width;
+	color: #555;
+}
+
+pre code
+{
+	margin-left: 2em;
+}
+
+dt
+{
+	font-weight: bold;
+}
+
+dd
+{
+	margin-left: 4em;
+	text-indent: -2em;
+	font-style: italic;
+	line-height: 1.5em;
+}
+
+a.footnote
+{
+	font-family: Arial;
+	vertical-align: super;
+	font-size: .75em;
+}
+
+blockquote
+{
+	font-style: italic;
+	margin: 0 2em 0 3em;
+	border-top: solid 1pt #888;
+	border-bottom: solid 1pt #888;
+}
+
+.footnotes
+{
+	font-family: Arial;
+	font-size: .8em;
+}
+
+figure>img
+{
+	display: block;
+	margin: 0 auto 0 auto;
+}
+
+figcaption
+{
+	text-align: center;
+	font-size: .8em;
+}
+
+table
+{
+	border-bottom: solid 1pt; 
+	border-collapse: separate;
+	margin: auto;
+}
+
+table td
+{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+table caption
+{
+	border-bottom: double 3pt;
+	border-top: solid 1pt;
+}
+
+table th
+{
+	border-bottom: solid 1pt;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+section {
+	max-width: 40em;
+	min-width: 25em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+article {
+	padding-bottom: 8em;
+}
+
+footer {
+	margin-top: 14em;
+	margin-left: auto ;
+	margin-right: auto ;
+	padding:  0px;
+	border: 0px solid gray;
+	text-align: center; 
+	position: relative; 
+	background-color: transparent;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-family: "Rockwell", "American Typewriter", "Courier New";
+	font-weight: normal;
+}
