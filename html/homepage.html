@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="base.css" type="text/css" />
-	</head>
-	<body>
+		<title> 10:01 AM AM </title>
+		<link href="css/base.css" rel="stylesheet" type="text/css" />
 		<script>
 		function getTime() {
 			var ajaxObject;
@@ -19,12 +18,14 @@
 			ajaxObject.send();
 		}
 		</script>
+	</head>
 
-		<div id="prompt">
+	<body>
+		<h2 id="prompt">
 			The time on the server is:
-		</div>
-		<div id="timeHolder">
+		</h2>
+		<h3 id="timeHolder">
 			<button type="button" onclick="getTime()">Click</button>
-		</div>
+		</h3>
 	</body>
 </html>
